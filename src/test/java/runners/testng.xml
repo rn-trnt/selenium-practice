@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite" thread-count="4" parallel="classes">
+
+    <test verbose="2" preserve-order="true" name="Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <packages>
+            <package name="tests.test1_inputFields"/>
+            <package name="tests.test2_radioButtons"/>
+            <package name="tests.test3_checkboxes"/>
+            <package name="tests.test4_dropdowns"/>
+            <package name="tests.test5_listBoxes"/>
+            <package name="tests.test6_DatePickers"/>
+            <package name="tests.test7_uploadFiles"/>
+            <package name="tests.test8_tables"/>
+            <package name="tests.test9_tabs"/>
+            <package name="tests.test10_dynamicButton"/>
+            <package name="tests.test11_alertsAndPopups"/>
+            <package name="tests.test12_mouseActions"/>
+            <package name="tests.test13_labelsAndLinks"/>
+        </packages>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Edge Test">
+        <parameter name="browser" value="edge"/>
+        <packages>
+            <package name="tests.test1_inputFields"/>
+            <package name="tests.test2_radioButtons"/>
+            <package name="tests.test3_checkboxes"/>
+            <package name="tests.test4_dropdowns"/>
+            <package name="tests.test5_listBoxes"/>
+            <package name="tests.test6_DatePickers"/>
+            <package name="tests.test7_uploadFiles"/>
+            <package name="tests.test8_tables"/>
+            <package name="tests.test9_tabs"/>
+            <package name="tests.test10_dynamicButton"/>
+            <package name="tests.test11_alertsAndPopups"/>
+            <package name="tests.test12_mouseActions"/>
+            <package name="tests.test13_labelsAndLinks"/>
+        </packages>
+    </test>
+
+</suite>
